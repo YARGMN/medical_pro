@@ -44,7 +44,7 @@ MonoBehaviour:
   enableSceneSystem: 0
   sceneSystemType:
     reference: 
-  registeredServiceProvidersProfile: {fileID: 0}
+  registeredServiceProvidersProfile: {fileID: 11400000, guid: b9c97ffc61eac154e8cf3f5dfe68cd30, type: 2}
   useServiceInspectors: 0
   renderDepthBuffer: 0
   enableVerboseLogging: 0
