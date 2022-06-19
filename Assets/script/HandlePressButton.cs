@@ -7,15 +7,13 @@ public class HandlePressButton : MonoBehaviour
 
     public GameObject toShow;
     public GameObject[] toHide;
-    // Start is called before the first frame update
-    void Start()
+    
+    public void OnClick()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log(toShow);
+        toShow.SetActive(true);
+        foreach(var hide in toHide) {
+            hide.SetActive(false);
+        }
     }
 }
