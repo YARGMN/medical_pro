@@ -403,7 +403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cd6841cca6d812f4ead5c92cb237b42e, type: 3}
       propertyPath: m_Name
-      value: button
+      value: basicCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd6841cca6d812f4ead5c92cb237b42e, type: 3}
