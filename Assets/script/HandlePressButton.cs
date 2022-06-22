@@ -10,7 +10,6 @@ public class HandlePressButton : MonoBehaviour
     
     public void OnClick()
     {
-        Debug.Log(toShow);
         toShow.SetActive(true);
         foreach(var hide in toHide) {
             hide.SetActive(false);
